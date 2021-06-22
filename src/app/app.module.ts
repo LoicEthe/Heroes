@@ -10,6 +10,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NavComponent } from './nav/nav.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

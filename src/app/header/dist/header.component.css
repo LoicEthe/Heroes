@@ -1,0 +1,16 @@
+header {
+  display: flex;
+}
+header img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px silver;
+}
+header h1 {
+  margin: 10px;
+  font-size: 2.5em;
+}
+header h2 {
+  color: red;
+}
