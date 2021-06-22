@@ -1,1 +1,5 @@
-<p>nav works!</p>
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a *ngFor="let l of links" routerLink="{{l.route}}">{{ l.text}}</a>
+</nav>
